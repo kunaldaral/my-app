@@ -29,7 +29,7 @@ public class App
 
         PrintWriter writer = new PrintWriter("testFile.txt", "UTF-8");
         writer.println(name);
-        writer.close();
+//        writer.close();
 
     }
 }

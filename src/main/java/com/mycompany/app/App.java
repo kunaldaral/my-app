@@ -13,7 +13,7 @@ public class App
     public static void main( String[] args ) throws IOException
     {
         System.out.println( "Hello World!" );
-//        abc abc = new abc();
+        abc abc = null;
 //        abc.setId(3);
 //        abc.setName("abc");
 
@@ -25,5 +25,8 @@ public class App
         String name = reader.readLine();
         // Printing the read line
         System.out.println(name);
+
+        abc.getId();
+        
     }
 }
